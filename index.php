@@ -18,7 +18,24 @@
     </nav>
 </header>
 <?php
-    echo "Hello, World!";
+    echo "Hello, World!<br>";
+    $date = date(Y);
+    echo $date.'<br>';
+    var_dump($date);
+    echo '<pre>';
+    $product = [1, 'Роза белая', 'Описание белой розы', 'image/rose-white.png', '100 руб.'];
+    var_dump($product);
+    echo '</pre>';
+    echo $product[4];
+
+    echo '<hr>';
+
+    $page = $_GET['page'];
+    if (!isset($page)) {
+        echo 'Это главная страница';
+    } elseif ($page == 'shop') {
+        echo 'Это страница магазина';
+    }
 ?>
 
 <!--
