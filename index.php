@@ -17,6 +17,11 @@
         </ul>
     </nav>
 </header>
+<?php
+    echo "Hello, World!";
+?>
+
+<!--
 <section>
     <h1>Приветствуем Вас в интернет магазине "Мир цветов"</h1><hr>
     <h2 class="popular_title">Самые популярные букеты</h2>
@@ -38,7 +43,7 @@
         </div>
         <h3>Роза красная</h3>
     </div>
-</section>
+</section>-->
 <footer>
     <p>Copyright &#169; 2016 Интернет-магазин "Мир цветов"</p>
 </footer>
