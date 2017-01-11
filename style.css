@@ -142,7 +142,7 @@ input:focus {
 }
 input[type="email"]:focus {
 	color: white;
-	background-color: darkslategrey;
+	background-color: #03658e;
 }
 input[type="text"], textarea {
 	text-transform: capitalize;
