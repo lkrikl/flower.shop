@@ -96,7 +96,7 @@ h1 {
 .poduct_title_desc {
 	font-size: 18px;
 	font-weight: 400;
-	color: #black;
+	color: black;
 }
 ul {
 	list-style-image: url(image/tick-grey.png);
@@ -169,3 +169,27 @@ tr:nth-child(even){
 	font-family: "Segoe Print";
 	font-size: 24px;
 }
+.one td {
+    padding: 30px;
+}
+.one tr:first-child td:first-child  {
+    background-color: red;
+}
+.one tr:first-child td:first-child  {
+    background-color: red;
+}
+.one tr:first-child td:nth-child(2)   {
+    background-color: green;
+}
+.two td {
+    padding: 11px;
+    text-align: center;
+    width: 16px;
+}
+.two tr:first-child td:first-child  {
+    background-color: red;
+}
+.two tr:first-child td:nth-child(2)   {
+    background-color: green;
+}
+
